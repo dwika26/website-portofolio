@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nama Anda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Overlay -->
+    <div id="welcome" class="welcome" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+        <div class="welcome-inner">
+            <div class="welcome-badge">Selamat Datang</div>
+            <h1 id="welcome-title" class="welcome-title">Halo, Saya <span class="highlight">Dwijothamy Oka</span></h1>
+            <p class="welcome-sub">Portofolio ini menampilkan kehidupan saya selama 19 tahun.</p>
+            <button id="enter-site" class="welcome-cta" aria-label="Masuk ke situs">Masuk</button>
+        </div>
+        <div class="welcome-decor"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><a href="https://drive.google.com/file/d/15Gf7LufSt54yzXwRZFLJcZSt9ZmmkviE/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="nav-link">CV</a></div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#tentang" class="nav-link">Tentang</a>
+                <a href="#pendidikan" class="nav-link">Pendidikan</a>
+                <a href="#pengalaman" class="nav-link">Pengalaman</a>
+                <a href="#hobi" class="nav-link">Hobi</a>
+                <a href="#kontak" class="nav-link">Kontak</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <p class="hero-greeting">Halo, saya</p>
+            <h1 class="hero-name">Ni Made Dwijothamy Oka</h1>
+            <h2 class="hero-title">Sifors'24 Undiksha</h2>
+            <p class="hero-description">
+                Seorang mahasiswa yang tertarik dengan dunia teknologi dan bisnis
+            </p>
+            <a href="#kontak" class="cta-button">Hubungi Saya</a>
+            <div class="cv-link-container" style="margin-top: 1rem;">
+                <a href="https://drive.google.com/file/d/15Gf7LufSt54yzXwRZFLJcZSt9ZmmkviE/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta-button">Lihat CV Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Saya adalah mahasiswa aktif Universitas Pendidikan Ganesha, Jurusan Teknik Informatika, Prodi S1 Sistem Informasi.
+                        Layaknya remaja yang akan menginjak usia kepala dua, masa-masa ini adalah waktu sibuk mencari jati diri dan memahami ingin menjadi apa.
+                        Dari banyak hal yang dicoba, akhirnya tumbuh ketertarikan di bidang teknologi khususnya pada UX Design dan bagaimana cara mengelola serta memaknai sebuah data.
+                        
+                        Portofolio ini menjadi wadah untuk merekam langkah, belajar, dan berkarya, sembari terus mencari arah terbaik dalam perjalanan menuju masa depan 🚀
+                    </p>
+                    <p class="about-paragraph">
+                        Berikut adalah beberapa teknologi yang telah saya pelajari baru-baru ini:
+                    </p>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            Python
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            Java
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            Manajemen proyek
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            Pemrograman Bahasa C
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            Tailwind CSS
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-arrow">▹</span>
+                            SQL
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img
+                            class="profile-img"
+                            src="image/WhatsApp%20Image%202025-09-22%20at%2020.23.27_6b4718ef.jpg"
+                            alt="Foto Profil"
+                            loading="eager"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="pendidikan" class="education">
+        <div class="container">
+            <h2 class="section-title">Riwayat Pendidikan</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">S1 Sistem Informasi</h3>
+                        <span class="timeline-date">2024 - Sekarang</span>
+                    </div>
+                    <p class="timeline-company">Universitas Pendidikan Ganesha (Undiksha)</p>
+                    <p class="timeline-description">
+                        Mempelajari dasar-dasar ilmu komputer, analisis bisnis, pengembangan web, basis data, dan manajemen proyek.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">SMA</h3>
+                        <span class="timeline-date">2021 - 2024</span>
+                    </div>
+                    <p class="timeline-company">SMA NEGERI 1 NUSA PENIDA</p>
+                    <p class="timeline-description">
+                        Jurusan MIPA (Matematika Ilmu Pengetahuan dan Alam)
+                        Aktif dalam kegiatan organisasi seperti Osis, PIK-R, DKA, dan kompetisi akademik.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">SMP</h3>
+                        <span class="timeline-date">2018 - 2021</span>
+                    </div>
+                    <p class="timeline-company">SMP NEGERI 2 NUSA PENIDA</p>
+                    <p class="timeline-description">
+                        Aktif dalam Organasasi Osis dan PMR. Mulai tertarik dengan  Ilmu Pengetahuan Alam. Memperkuat kemampuan dasar akademik dan mulai mengeksplorasi dunia Sains
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="pengalaman" class="experience">
+        <div class="container">
+            <h2 class="section-title">Pengalaman Organisasi & kepanitiaan</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Sekretaris Bidang 1-Pers & Karya Kreatif Mahasiswa</h3>
+                        <span class="timeline-date">2024 - Sekarang</span>
+                    </div>
+                    <p class="timeline-company">Fungsionaris Himpunan Mahasiswa Jurusan Teknik Informatika</p>
+                    <p class="timeline-description">
+                        Bertanggung jawab dalam pencatatan administrasi, penyusunan laporan, 
+                        serta mendukung kelancaran kegiatan internal maupun eksternal HMJ TI Khususnya Bidang 1.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Anggota Sie Penggalian Dana</h3>
+                        <span class="timeline-date">2024</span>
+                    </div>
+                    <p class="timeline-company">INTEGER #6</p>
+                    <p class="timeline-description">
+                        Terlibat dalam perencanaan dan pelaksanaan strategi penggalangan dana, mendukung kebutuhan operasional acara, 
+                        serta berkontribusi dalam menjaga keberlangsungan kegiatan.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Anggota Sie MGS</h3>
+                        <span class="timeline-date">2024</span>
+                    </div>
+                    <p class="timeline-company">Gelora Sastra Nusantara-UKM Teater Kampus Seribu Jalan</p>
+                    <p class="timeline-description">
+                        Berpartisipasi dalam kepanitiaan bidang acara, membantu koordinasi teknis, 
+                        serta mendukung terselenggaranya rangkaian kegiatan seni dan budaya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobi & Minat Section -->
+    <section id="hobi" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Hobi & Minat</h2>
+
+            <!-- Hobi (6 cards) -->
+            <div class="hobbies-grid" style="margin-bottom: 2rem;">
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎵</div>
+                    <h3 class="hobby-title">Mendengar Musik</h3>
+                    <p class="hobby-description">Menikmati berbagai genre dan playlist untuk fokus dan relaksasi.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">📚</div>
+                    <h3 class="hobby-title">Membaca</h3>
+                    <p class="hobby-description">Buku teknologi, bisnis, dan fiksi untuk memperluas wawasan.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">🍳</div>
+                    <h3 class="hobby-title">Memasak</h3>
+                    <p class="hobby-description">Eksperimen resep rumahan dan plating sederhana yang menarik.</p>
+                </div>
+                
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎨</div>
+                    <h3 class="hobby-title">UX Design</h3>
+                    <p class="hobby-description">Riset pengguna, wireframing, dan prototyping untuk pengalaman optimal.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">🗄️</div>
+                    <h3 class="hobby-title">Basis Data</h3>
+                    <p class="hobby-description">Perancangan skema, normalisasi, dan query yang efisien.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">🔬</div>
+                    <h3 class="hobby-title">Dunia Sains</h3>
+                    <p class="hobby-description">Sains populer, eksperimen sederhana, dan rasa ingin tahu tinggi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2 class="section-title">Mari Berbicara</h2>
+            <p class="contact-description">
+                Saya selalu tertarik untuk mendengar tentang proyek baru dan kesempatan yang menarik.
+            </p>
+            <a href="mailto:email@example.com" class="cta-button">Hubungi Saya</a>
+            
+            <!-- Social Links -->
+            <div class="social-section">
+                <h3 class="social-title">Temukan Saya Di</h3>
+                <div class="social-links">
+                    <a href="https://github.com/dwika26" class="social-link">
+                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dwijothamyoka" class="social-link">
+                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.064-2.064 2.064zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/djyooethamie.oka?igsh=ejQ5a3lkYmg0cW1h" class="social-link">
+                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm4.75-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/6282146432410" class="social-link">
+                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Dibuat dengan ❤️ menggunakan HTML, CSS, dan Node.js
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
