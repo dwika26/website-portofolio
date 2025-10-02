@@ -1,0 +1,2 @@
+- [x] Update CV link in navigation bar in index.html
+- [x] Update CV link in hero section in index.html
