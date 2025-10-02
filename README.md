@@ -150,8 +150,8 @@ MIT License - bebas digunakan untuk proyek pribadi atau komersial.
 ## 📞 Support
 
 Jika ada pertanyaan atau butuh bantuan:
-- Email: your-email@example.com
-- GitHub Issues: [Create Issue](https://github.com/username/portfolio-website/issues)
+- Email: madejoti62@gmail.com
+- GitHub Issues: (https://github.com/dwika26)
 
 ---
 
